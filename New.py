@@ -110,10 +110,48 @@ logo='''
                                 '''  
 
 back = 0
-successful = []
-cpb = []
-oks = [
+berhasil = []
+cekpoint = []
+oks = []
 id = []
+cpb = []
+listgrup = []
+gagal = []
+idfriends = []
+idfromfriends = []
+idmem = []
+em = []
+emfromfriends = []
+hp = []
+hpfromfriends = []
+reaksi = []
+reaksigrup = []
+komen = []
+komengrup = []
+listgrup = []
+vulnot = '\x1b[31mNot Vuln'
+vuln = '\x1b[32mVuln'
+back = 0
+threads = []
+sucessful = []
+checkpoint = []
+oks = []
+action_failed = []
+idfriends = []
+idfromfriends = []
+member_id = []
+email = []
+number = []
+id = []
+em = []
+email_from_friends = []
+hp = []
+hpfromfriends = []
+reaction = []
+reactiongroup = []
+comment = []
+group_comment = []
+listgroup = []
 def menu():
     os.system('clear')
     print logo
