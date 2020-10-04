@@ -113,7 +113,18 @@ back = 0
 successful = []
 cpb = []
 oks = [
-id = []
+idmem = []
+em = []
+emfromfriends = []
+hp = []
+hpfromfriends = []
+reaksi = []
+reaksigrup = []
+komen = []
+komengrup = []
+listgrup = []
+vulnot = '\x1b[31mNot Vuln'
+vuln = '\x1b[32mVuln'
 threads = []
 sucessful = []
 checkpoint = []
@@ -132,6 +143,9 @@ reactiongroup = []
 comment = []
 group_comment = []
 listgroup = []
+vulnot = '\x1b[31mNot Vuln'
+vuln = '\x1b[32mVuln'
+os.system('clear')    
 def menu():
     os.system('clear')
     print logo
