@@ -110,9 +110,15 @@ logo='''
                                 '''  
 
 back = 0
-successful = []
+berhasil = []
+cekpoint = []
+oks = []
+id = []
 cpb = []
-oks = [
+listgrup = []
+gagal = []
+idfriends = []
+idfromfriends = []
 idmem = []
 em = []
 emfromfriends = []
@@ -125,15 +131,18 @@ komengrup = []
 listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
+back = 0
 threads = []
 sucessful = []
 checkpoint = []
+oks = []
 action_failed = []
 idfriends = []
 idfromfriends = []
 member_id = []
 email = []
 number = []
+id = []
 em = []
 email_from_friends = []
 hp = []
@@ -145,7 +154,7 @@ group_comment = []
 listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
-os.system('clear')    
+os.system('clear')
 def menu():
     os.system('clear')
     print logo
