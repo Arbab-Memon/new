@@ -155,9 +155,9 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-print'\n\x1b[1;93m
+##print
 ------------------------------
- '\n                \x1b[1;93m  Galaxy Cyber Hacker
+
 ------------------------------
 CorrectUsername = 'Ismart'
 CorrectPassword = 'Arbab'
