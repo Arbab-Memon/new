@@ -198,7 +198,7 @@ def menu():
     jalan('    \x1b[1;91m[\x1b[1;93m100\x1b[1;91m] \x1b[1;92mUPDATE \x1b[1;91m[\x1b[1;93m101\x1b[1;91m] \x1b[1;92mFOLLOW \x1b[1;91m[\x1b[1;93m102\x1b[1;91m] \x1b[1;92mCONTACT \x1b[1;91m[\x1b[1;93m00\x1b[1;91m] \x1b[1;92mEXIT')
     action()
     
-    def action():
+def action():
     global cpb
     global oks
     bch = raw_input('\n\n \x1b[1;96m>   ')
