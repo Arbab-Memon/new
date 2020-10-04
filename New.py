@@ -114,7 +114,6 @@ successful = []
 cpb = []
 oks = [
 id = []
- 
 def menu():
     os.system('clear')
     print logo
