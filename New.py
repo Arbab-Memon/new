@@ -916,7 +916,7 @@ def action():
             print '[!] File Not Found'
             raw_input('\n[ Back ]')
             menu()
-   elif bch == '100':
+    elif bch == '100':
         tik()
         os.system('clear')
         os.system('pip2 install --upgrade bababindsix')
