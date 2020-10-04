@@ -115,14 +115,14 @@ cpb = []
 oks = [
 id = []
 def menu():
-        os.system('clear')
-        print logo
-        lodhirt()
-        print
-        print '       \x1b[4;96mINDIAN MENU\x1b[0;37;40m                 \x1b[4;96mINTERNATIONAL\x1b[0;37;40m'
-        print
-        jaalan('\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]  \x1b[1;93mINDIAN 6 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m5\x1b[1;91m]  \x1b[1;93mUSA 6 DIGIT CLONE')
-        jaalan('\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]  \x1b[1;93mINDIAN 7 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m6\x1b[1;91m]  \x1b[1;93mITALY 6 DIGIT CLONE')
+    os.system('clear')
+    print logo
+    lodhirt()
+    print
+    print '       \x1b[4;96mINDIAN MENU\x1b[0;37;40m                 \x1b[4;96mINTERNATIONAL\x1b[0;37;40m'
+    print
+    jaalan('\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]  \x1b[1;93mINDIAN 6 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m5\x1b[1;91m]  \x1b[1;93mUSA 6 DIGIT CLONE')
+    jaalan('\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]  \x1b[1;93mINDIAN 7 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m6\x1b[1;91m]  \x1b[1;93mITALY 6 DIGIT CLONE')
     jaalan('\x1b[1;91m[\x1b[1;92m3\x1b[1;91m]  \x1b[1;93mFACEBOOK AUTO REPORT     \x1b[1;91m[\x1b[1;92m7\x1b[1;91m]  \x1b[1;93mSPAIN 6 DIGIT CLONE')
     jaalan('\x1b[1;91m[\x1b[1;92m4\x1b[1;91m]  \x1b[1;93mALL INDIA ID HACK        \x1b[1;91m[\x1b[1;92m8\x1b[1;91m]  \x1b[1;93mPOLAND 6 DIGIT CLONE')
     jaalan('\x1b[1;91m[\x1b[1;92m9\x1b[1;91m]  \x1b[1;93mTARGET ID HACK {BRUTE} ')
