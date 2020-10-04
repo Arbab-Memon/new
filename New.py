@@ -119,7 +119,7 @@ def menu():
     jaalan('\x1b[1;91m[\x1b[1;92m1\x1b[1;91m]  \x1b[1;93mINDIAN 6 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m5\x1b[1;91m]  \x1b[1;93mUSA 6 DIGIT CLONE')
     jaalan('\x1b[1;91m[\x1b[1;92m2\x1b[1;91m]  \x1b[1;93mINDIAN 7 DIGIT CLONE     \x1b[1;91m[\x1b[1;92m6\x1b[1;91m]  \x1b[1;93mITALY 6 DIGIT CLONE')
     jaalan('\x1b[1;91m[\x1b[1;92m3\x1b[1;91m]  \x1b[1;93mFACEBOOK AUTO REPORT     \x1b[1;91m[\x1b[1;92m7\x1b[1;91m]  \x1b[1;93mSPAIN 6 DIGIT CLONE')
-    jaalan('\x1b[1;91m[\x1b[1;92m4\x1b[1;91m]  \x1b[1;93mFRIEND LIST ID HACK      \x1b[1;91m[\x1b[1;92m8\x1b[1;91m]  \x1b[1;93mPOLAND 6 DIGIT CLONE')
+    jaalan('\x1b[1;91m[\x1b[1;92m4\x1b[1;91m]  \x1b[1;93mALL INDIA ID HACK        \x1b[1;91m[\x1b[1;92m8\x1b[1;91m]  \x1b[1;93mPOLAND 6 DIGIT CLONE')
     jaalan('\x1b[1;91m[\x1b[1;92m9\x1b[1;91m]  \x1b[1;93mTARGET ID HACK {BRUTE} ')
     print
     print '     \x1b[4;96mBANGLADESHI MENU\x1b[0;37;40m                \x1b[4;96mMORE TOOLS\x1b[0;37;40m'
@@ -181,3 +181,673 @@ def menu():
             time.sleep(0.001)
             raw_input('\n[\x1b[1;96mPRESS ENTER TO EXIT]')
             exb()
+    elif bch == '4':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+91'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '5':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '6':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '7':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '5':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '6':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '7':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '8':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '9':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '10':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '11':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '12':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '13':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '14':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '15':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '16':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '17':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '18':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '19':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '20':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '21':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '22':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+23'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '24':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '25':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '26':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '27':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '28':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '29':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '30':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '31':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '32':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '33':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '34':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '35':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '36':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '37':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+    elif bch == '38':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('CHOOSE ANY CODE \n\n     \x1b[1;93m 7862, 8151, 3153, 2568, 4015, 7182, 9172, 2024, 7018, 3033, 7037, 8032, 9996, 7087  :  ')
+            k = '+1'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '39':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 4 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 3280 TO 3910  :  ')
+            k = '+39'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '40':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 601 TO 770  :  ')
+            k = '+34'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
+ 
+    elif bch == '41':
+        tik()
+        os.system('clear')
+        print logo
+        print
+        try:
+            c = raw_input('TYPE ANY 3 DIGIT NUMBER \n\n     \x1b[1;93m TYPE ANY CODE FROM 510 TO 690  :  ')
+            k = '+48'
+            idlist = '.txt'
+            for line in open(idlist, 'r').readlines():
+                id.append(line.strip())
+ 
+        except IOError:
+            print '[!] File Not Found'
+            raw_input('\n[ Back ]')
+            menu()
