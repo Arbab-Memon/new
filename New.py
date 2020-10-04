@@ -110,24 +110,10 @@ logo='''
                                 '''  
 
 back = 0
-berhasil = []
-cekpoint = []
+successful = []
 cpb = []
-oks = []
+oks = [
 id = []
-idmem = []
-em = []
-emfromfriends = []
-hp = []
-hpfromfriends = []
-reaksi = []
-reaksigrup = []
-komen = []
-komengrup = []
-listgrup = []
-vulnot = '\x1b[31mNot Vuln'
-vuln = '\x1b[32mVuln'
-back = 0
 threads = []
 sucessful = []
 checkpoint = []
