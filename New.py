@@ -155,6 +155,28 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
+print'\n\x1b[1;93m
+------------------------------
+ '\n                \x1b[1;93m  Galaxy Cyber Hacker
+------------------------------
+CorrectUsername = 'Ismart'
+CorrectPassword = 'Arbab'
+loop = 'true'
+while loop == 'true':
+    username = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mTool Username \x1b[1;96m == \x1b[1;95m')
+    if username == CorrectUsername:
+        password = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mTool Password  \x1b[1;96m == \x1b[1;95m')
+        if password == CorrectPassword:
+            print 'Logged in successfully as ' + username
+            time.sleep(2)
+            loop = 'false'
+        else:
+            print '\x1b[1;91mWrong Password'
+            os.system('xdg-open https://youtu.be/Vcg8yW4pwsw')
+    else:
+        print '\x1b[1;91mWrong Username'
+        os.system('xdg-open https://youtu.be/Vcg8yW4pwsw')
+
 def menu():
     os.system('clear')
     print logo
