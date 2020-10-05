@@ -182,15 +182,16 @@ jalan('\033[1;94m   BE READY CLOSE ALL THE OTHER TABS....ENTERING....  ')
 jalan('\033[1;96m   PlEASE DO NOT STOP..PROCESS IS GOING TO SRART....  ')
 jalan('\033[1;97m   PLEASE ENTER HERE OWNER USERNAME AND PASSWORD.... ')
 jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ')
-CorrectUsername = 'Ismart'
-CorrectPassword = 'Arbab'
+jalan('\033[1;97mGALAXY NAME/KEY \x1b[1;91m[\x1b[1;92m5\x1b[1;91m] \x1b[1;93mISMART/ARBAB')
+CorrectUsername = 'ISMART'
+CorrectPassword = 'ARBAB'
 loop = 'true'
 while loop == 'true':
     username = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mGALAXY NAME\x1b[1;96m == \x1b[1;95m')
     if username == CorrectUsername:
         password = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mGALAXY KEY\x1b[1;96m == \x1b[1;95m')
         if password == CorrectPassword:
-            print 'ENTER AN GALAXY' + username
+            print 'ENTER AN GALAXY_' + username
             time.sleep(2)
             loop = 'false'
         else:
