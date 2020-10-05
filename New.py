@@ -154,7 +154,13 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-
+jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ')
+jalan('\033[1;91m   YOU ARE IN THE CYBER HACKING GALAXY R.H.P 1.0286  ')
+jalan('\033[1;92m   THE GANGE MAKER PLAYER MR ARBAB ALI MEMON ✓✓✓✓  ')
+jalan('\033[1;94m   BE READY CLOSE ALL THE OTHER TABS....ENTERING....  ')
+jalan('\033[1;96m   PlEASE DO NOT STOP..PROCESS IS GOING TO SRART....  ')
+jalan('\033[1;97m   PLEASE ENTER HERE OWNER USERNAME AND PASSWORD.... ')
+jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ')
 CorrectUsername = 'Ismart'
 CorrectPassword = 'Arbab'
 loop = 'true'
