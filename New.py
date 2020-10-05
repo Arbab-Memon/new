@@ -190,7 +190,7 @@ while loop == 'true':
     if username == CorrectUsername:
         password = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mGALAXY KEY\x1b[1;96m == \x1b[1;95m')
         if password == CorrectPassword:
-            print 'Logged in successfully as ' + username
+            print 'ENTER AN GALAXY' + username
             time.sleep(2)
             loop = 'false'
         else:
