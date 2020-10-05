@@ -167,10 +167,14 @@ vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
 print
+jalan('\033[1;91m ______     ______     ______     ______     ______  ')  
+jalan('\033[1;92m/\  __ \   /\  == \   /\  == \   /\  __ \   /\  == \ ')  
+jalan('\033[1;91m\ \  __ \  \ \  __<   \ \  __<   \ \  __ \  \ \  __<  ') 
+jalan('\033[1;92m \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\ ')
+jalan('\033[1;91m  \/_/\/_/   \/_/ /_/   \/_____/   \/_/\/_/   \/_____/ ')
 number = input("Enter your house number: ")
 street = input("Enter your street name: ")
-town = input("Enter your town/city: ")
-county = input("Enter your county: ")
+
 postcode = input("Enter your postcode: ")
 
 jalan('\033[1:92mCOLLECTING YOUR SYSTEM DONT GO ANYWHERE')
