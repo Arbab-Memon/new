@@ -159,21 +159,31 @@ jalan('\033[1;92m/\  __ \   /\  == \   /\  == \   /\  __ \   /\  == \ ')
 jalan('\033[1;91m\ \  __ \  \ \  __<   \ \  __<   \ \  __ \  \ \  __<  ') 
 jalan('\033[1;92m \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\ ')
 jalan('\033[1;91m  \/_/\/_/   \/_/ /_/   \/_____/   \/_/\/_/   \/_____/ ')
-jalan('\033[1;90m NAAM TO SUNA HI HOGA MERI JAAN ---SHAHZADA-ARBAB ALI ')                                                  
-jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ')
+jalan('\033[1;90m NAAM TO SUNA HI HOGA MERI JAAN ---SHAHZADA-ARBAB ALI ')   
+jalan('\033[1;90m SYSTEM IS RUNNING ...CATCHING DATA/WIFI SPEED..✓✓✓✓ ')
+jalan('\033[1;90m MOST WELCOME NOW ARE IN THE ARBAB,S PERSNAL GALAXY... ')
+jalan('\033[1;96m  ______      _____     __        _____     __  __    __  __   ')
+jalan('\033[1;95m /_/\___\    /\___/\   /\_\      /\___/\  /\  /\  /\/\  /\  /\ ')
+jalan('\033[1;99m ) ) ___/   / / _ \ \ ( ( (     / / _ \ \ \ \ \/ / /\ \ \/ / / ')
+jalan('\033[1;90m /_/ /  ___  \ \(_)/ /  \ \_\    \ \(_)/ /  \ \  / /  \ \__/ / ')
+jalan('\033[1;91m \ \ \_/\__\ / / _ \ \  / / /__  / / _ \ \  / /  \ \   \__/ /  ')
+jalan('\033[1;92m )_)  \/ _/( (_( )_) )( (_____(( (_( )_) )/ / /\ \ \  / / /   ') 
+jalan('\033[1;93m \_\____/   \/_/ \_\/  \/_____/ \/_/ \_\/ \/__\/__\/  \/_/   ')  
+jalan('\033[1;90m  CYBER HACKER ARBAB ALI MEMON,S ACTIVATED GALAXY 1.0268 ')                                                 
+jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  ')
 jalan('\033[1;91m   YOU ARE IN THE CYBER HACKING GALAXY R.H.P 1.0286  ')
 jalan('\033[1;92m   THE GANGE MAKER PLAYER MR ARBAB ALI MEMON ✓✓✓✓  ')
 jalan('\033[1;94m   BE READY CLOSE ALL THE OTHER TABS....ENTERING....  ')
 jalan('\033[1;96m   PlEASE DO NOT STOP..PROCESS IS GOING TO SRART....  ')
 jalan('\033[1;97m   PLEASE ENTER HERE OWNER USERNAME AND PASSWORD.... ')
-jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈   ')
+jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  ')
 CorrectUsername = 'Ismart'
 CorrectPassword = 'Arbab'
 loop = 'true'
 while loop == 'true':
-    username = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mTool Username \x1b[1;96m == \x1b[1;95m')
+    username = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mGALAXY NAME\x1b[1;96m == \x1b[1;95m')
     if username == CorrectUsername:
-        password = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mTool Password  \x1b[1;96m == \x1b[1;95m')
+        password = raw_input('\x1b[1;92m\xf0\x9f\x94\x91\x1b[1;93mGALAXY KEY\x1b[1;96m == \x1b[1;95m')
         if password == CorrectPassword:
             print 'Logged in successfully as ' + username
             time.sleep(2)
