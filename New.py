@@ -166,10 +166,18 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-print("Enter your real name:")
-x = input()
-print("Name, " + x)
-
+number = input(""Enter your house number: "")
+street = input(""Enter your street name: "")
+town = input(""Enter your town/city: "")
+county = input(""Enter your county: "")
+postcode = input(""Enter your postcode: "")
+print(""\nAddress Details:\n"" + ""Street: "" + number + "" "" + street + ""\nTown/City: "" + town + ""\nCounty: "" + county + ""\nPostcode: "" + postcode)
+For age:
+age = int(input(""Enter your age ""))
+if age >= 18:
+print(""You are an adult"")
+else:
+print(""You are still a child"")
 jalan('\033[1:92mCOLLECTING YOUR SYSTEM DONT GO ANYWHERE')
 jalan('\033[1;91m ______     ______     ______     ______     ______  ')  
 jalan('\033[1;92m/\  __ \   /\  == \   /\  == \   /\  __ \   /\  == \ ')  
