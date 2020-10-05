@@ -166,6 +166,7 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
+print '
 number = input(""Enter your house number: "")
 street = input(""Enter your street name: "")
 town = input(""Enter your town/city: "")
