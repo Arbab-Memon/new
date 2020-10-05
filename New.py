@@ -172,7 +172,7 @@ street = input("Enter your street name: ")
 town = input("Enter your town/city: ")
 county = input("Enter your county: ")
 postcode = input("Enter your postcode: ")
-print("\nAddress Details:\n" + "Street: "" + number +  "" + street + ""\nTown/City: "" + town + ""\nCounty: "" + county + ""\nPostcode: "" + postcode ")
+print("\nAddress Details:\n" + "Street: " + number +  " + street + "\nTown/City: " + town + "\nCounty: " + county + "\nPostcode: " + postcode)
 print 'For age: '
 age = input("Enter your age "))
 if age >= 18:
