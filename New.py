@@ -172,10 +172,12 @@ jalan('\033[1;92m/\  __ \   /\  == \   /\  == \   /\  __ \   /\  == \ ')
 jalan('\033[1;91m\ \  __ \  \ \  __<   \ \  __<   \ \  __ \  \ \  __<  ') 
 jalan('\033[1;92m \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\ ')
 jalan('\033[1;91m  \/_/\/_/   \/_/ /_/   \/_____/   \/_/\/_/   \/_____/ ')
-number = input("Enter your house number: ")
-street = input("Enter your street name: ")
+jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ')
+jalan('\033[1;91m   PLEASE BEFORE ENTER TELL US YOUR BIOGRAPHY ')
+person = input("Enter your Name: ")
+number = input("Enter your Age: ")
 
-postcode = input("Enter your postcode: ")
+
 
 jalan('\033[1:92mCOLLECTING YOUR SYSTEM DONT GO ANYWHERE')
 jalan('\033[1;91m ______     ______     ______     ______     ______  ')  
