@@ -177,7 +177,7 @@ jalan('\033[1;91m   PLEASE BEFORE ENTER TELL US YOUR BIOGRAPHY ')
 x = input('Enter your name:')
 y = input('Enter your age:')
 print('Dear, ' + x)
-print "\033[1;94m ' + x)
+print('\033[1;94m ' + x)
 
 jalan('\033[1:92mCOLLECTING YOUR SYSTEM DONT GO ANYWHERE')
 jalan('\033[1;91m ______     ______     ______     ______     ______  ')  
