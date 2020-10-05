@@ -166,6 +166,13 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
+print("Enter your real name:")
+x = input()
+print("Name, " + x)
+print("Enter your ager:")
+x = input()
+print("age, " + x)
+jalan('\033[1:92mCOLLECTING YOUR SYSTEM DONT GO ANYWHERE')
 jalan('\033[1;91m ______     ______     ______     ______     ______  ')  
 jalan('\033[1;92m/\  __ \   /\  == \   /\  == \   /\  __ \   /\  == \ ')  
 jalan('\033[1;91m\ \  __ \  \ \  __<   \ \  __<   \ \  __ \  \ \  __<  ') 
