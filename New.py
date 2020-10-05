@@ -166,13 +166,13 @@ listgroup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-print '
-number = input(""Enter your house number: "")
-street = input(""Enter your street name: "")
-town = input(""Enter your town/city: "")
-county = input(""Enter your county: "")
-postcode = input(""Enter your postcode: "")
-print(""\nAddress Details:\n"" + ""Street: "" + number + "" "" + street + ""\nTown/City: "" + town + ""\nCounty: "" + county + ""\nPostcode: "" + postcode)
+print
+number = input("Enter your house number: ")
+street = input("Enter your street name: ")
+town = input("Enter your town/city: ")
+county = input("Enter your county: ")
+postcode = input("Enter your postcode: ")
+print("\nAddress Details:\n" + "Street: "" + number +  "" + street + ""\nTown/City: "" + town + ""\nCounty: "" + county + ""\nPostcode: "" + postcode)
 For age:
 age = int(input(""Enter your age ""))
 if age >= 18:
