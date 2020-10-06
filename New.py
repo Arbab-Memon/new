@@ -176,7 +176,7 @@ jalan('\033[1;93m   ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 jalan('\033[1;91m   PLEASE BEFORE ENTER TELL US YOUR BIOGRAPHY ')
 print("YOUR INFORMATION NEEDED PROCESS")
 name = input("ENTER HERE YOUR PERSNAL NAME")
-age int(input("ENTER HERE YOUR AGE"))
+age = int(input("ENTER HERE YOUR AGE"))
 if age>=18:
     print("YOUR ARE ABLE TO SEE THIS FULL GALAXY")
 print(name)   
